@@ -15,7 +15,7 @@ staff("Friedrich", "be48b70f-d0c9-4a51-ab90-4295ed8a87c3", "Owner / Admin");
 staff("Kxwaiix", "31d85029-c0e5-4d96-86b7-ee5ceb8b3e8d", "Admin");
 
 
-vote("Staffel 3", "./img/discord3.png", "https://mega.nz/file/uPgQxTTb#f3x1YXXW9N8pNi1gwabP-IpzTFL2_Ho9Fl_EGbL2JLI");
-vote("Staffel 2", "./img/discord2.png", "https://mega.nz/file/jDRgVTLQ#uEu3NrkQeRH-Y9nrUobn-bGEWdIRWCP-KnySkYyJe7A");
 vote("Staffel 1", "./img/discord1.png", "https://mega.nz/file/Peh0WKJK#28XbZAGKKppGUYETezMTuWHijSU_-a5j4dKvMCQ6KPk");
+vote("Staffel 2", "./img/discord2.png", "https://mega.nz/file/jDRgVTLQ#uEu3NrkQeRH-Y9nrUobn-bGEWdIRWCP-KnySkYyJe7A");
+vote("Staffel 3", "./img/discord3.png", "https://mega.nz/file/uPgQxTTb#f3x1YXXW9N8pNi1gwabP-IpzTFL2_Ho9Fl_EGbL2JLI");
 vote("Staffel 4", "./img/discord4.png", "https://colorlib.com/etc/404/colorlib-error-404-1/#");
