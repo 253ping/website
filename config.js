@@ -18,4 +18,4 @@ staff("N/A", "0", "Admin");
 vote("Staffel 1", "./img/discord1.png", "https://mega.nz/file/Peh0WKJK#28XbZAGKKppGUYETezMTuWHijSU_-a5j4dKvMCQ6KPk");
 vote("Staffel 2", "./img/discord2.png", "https://mega.nz/file/jDRgVTLQ#uEu3NrkQeRH-Y9nrUobn-bGEWdIRWCP-KnySkYyJe7A");
 vote("Staffel 3", "./img/discord3.png", "https://mega.nz/file/uPgQxTTb#f3x1YXXW9N8pNi1gwabP-IpzTFL2_Ho9Fl_EGbL2JLI");
-vote("Staffel 4", "./img/discord4.png", "https://vanillacraftde.github.io/404/");
+vote("Staffel 4", "./img/discord4.png", "https://mega.nz/file/2eR2EY6K#R71oKThy8u00sQFoLgDcMIfib41an4kmhH2spaFnUVw");
