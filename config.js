@@ -11,8 +11,8 @@ var ip_copied = "IP copied!";
 var firefly_count = 20;
 
 staff("Laurino", "4ffcbe16-9da7-4aec-b6b4-55b7091ba7f6", "Founder / Owner / Admin");
-staff("n.N", "0", "Admin");
 staff("Kxwaiix", "31d85029-c0e5-4d96-86b7-ee5ceb8b3e8d", "Admin");
+staff("N/A", "0", "Admin");
 
 
 vote("Staffel 1", "./img/discord1.png", "https://mega.nz/file/Peh0WKJK#28XbZAGKKppGUYETezMTuWHijSU_-a5j4dKvMCQ6KPk");
