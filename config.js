@@ -11,7 +11,7 @@ var ip_copied = "IP copied!";
 var firefly_count = 20;
 
 staff("Laurino", "4ffcbe16-9da7-4aec-b6b4-55b7091ba7f6", "Founder / Owner / Admin");
-staff("Friedrich", "be48b70f-d0c9-4a51-ab90-4295ed8a87c3", "Owner / Admin");
+staff("n.N", "0", "Admin");
 staff("Kxwaiix", "31d85029-c0e5-4d96-86b7-ee5ceb8b3e8d", "Admin");
 
 
