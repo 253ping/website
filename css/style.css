@@ -1,8 +1,51 @@
 .datagrid table { border-collapse: collapse; text-align: left; width: 100%; } .datagrid {font: normal 24px/150% Arial, Helvetica, sans-serif; background: #E3E3E3; overflow: hidden; border: 3px solid #006699; -webkit-border-radius: 5px; -moz-border-radius: 10px; border-radius: 10px; }.datagrid table td, .datagrid table th { padding: 6px 11px; }.datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #005C99), color-stop(1, #00557F) );background:-moz-linear-gradient( center top, #005C99 5%, #00557F 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#005C99', endColorstr='#00557F');background-color:#005C99; color:#FFFFFF; font-size: 20px; font-weight: bold; border-left: 1px solid #0070A8; } .datagrid table thead th:first-child { border: none; }.datagrid table tbody td { color: #00557F; border-left: 1px solid #E1EEF4;font-size: 20px;font-weight: normal; }.datagrid table tbody .alt td { background: #BABABA; color: #00557F; }.datagrid table tbody td:first-child { border-left: none; }.datagrid table tbody tr:last-child td { border-bottom: none; }.datagrid table tbody .footer td { border-left: none; background: #005C99; color: #FFFFFF; font-size: 14px; }
 .firstgrid table { border-collapse: collapse; text-align: left; width: 100%; } .firstgrid {font: normal 24px/150% Arial, Helvetica, sans-serif; background: #E3E3E3; overflow: hidden; border: 3px solid #006699; -webkit-border-radius: 5px; -moz-border-radius: 10px; border-radius: 10px; }.firstgrid table td, .firstgrid table th { padding: 6px 11px; }.firstgrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #005C99), color-stop(1, #00557F) );background:-moz-linear-gradient( center top, #005C99 5%, #00557F 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#005C99', endColorstr='#00557F');background-color:#005C99; color:#FFFFFF; font-size: 20px; font-weight: bold; border-left: 1px solid #0070A8; } .firstgrid table thead th:first-child { border: none; }.firstgrid table tbody td { color: #00557F; border-left: 1px solid #E1EEF4;font-size: 20px;font-weight: normal; }.firstgrid table tbody .alt td { background: #BABABA; color: #00557F; }.firstgrid table tbody td:first-child { border-left: none; }.firstgrid table tbody tr:last-child td { border-bottom: none; }.firstgrid table tbody .footer td { border-left: none; background: #005C99; color: #FFFFFF; font-size: 14px; }
+/* eocNewsticker */
+
+.eoc-newsticker {
+  padding: 10px 0;
+  background-color: #eee;
+}
+
+.eoc-newsticker .eoc-newsticker-container {
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+}
+
+.eoc-newsticker .eoc-newsticker-one,
+.eoc-newsticker .eoc-newsticker-two {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 20px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.eoc-newsticker-loader {
+  position: absolute;
+  left: calc(50% - 10px);
+  width: 16px;
+  height: 16px;
+  display: block;
+  border: 2px solid #555555;
+  border-top: 2px solid transparent;
+  border-radius: 50%;
+  animation: eoc-newsticker-spin 1s linear infinite;
+}
+
+@keyframes eoc-newsticker-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 #menu {
-	background: #005990;
+	background: 005990;
 	color: #FFF;
 	height: 45px;
 	padding-left: 18px;
@@ -24,18 +67,17 @@
 #menu a {
 	display: block;
 	line-height: 45px;
-	padding: 0px 16px;
+	padding: 0 14px;
 	text-decoration: none;
 	color: #FFFFFF;
 	font-size: 16px;
-	font-family: Arial, Helvetica, sans-serif;
 }
 #menu a.dropdown-arrow:after {
 	content: "\25BE";
 	margin-left: 5px;
 }
 #menu li a:hover {
-	color: #005990;
+	color: #0099CC;
 	background: #F2F2F2;
 }
 #menu input {
@@ -95,3 +137,4 @@
 	#menu input:checked + label:before {content:"\00d7"}
 	#menu input:checked ~ ul {display:block}
 }
+

@@ -1,83 +1,80 @@
-<!DOCTYPE html>
-<html>
-<meta charset='UTF-8'>
-<link rel='stylesheet' href='css/style.css'>
 <!DOCTYPE html><html><head>
-  <script data-ad-client="ca-pub-9963695974359722" async src="js/adsbygoogle.js"></script>
-  <title>VanillaCraft</title>
-  <link rel="stylesheet" href="css/style.css">
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
-<script src="https://kit.fontawesome.com/233446497c.js" crossorigin="anonymous"></script>
-<script src="js/eoc-newsticker.js"></script>
-<script src='js/script.js'></script>
-<script>
+    <script data-ad-client="ca-pub-9963695974359722" async src="js/adsbygoogle.js"></script>
+    <title>VanillaCraft</title>
+    <link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<script src="https://kit.fontawesome.com/233446497c.js" crossorigin="anonymous"></script>
+	<script src="js/eoc-newsticker.js"></script>
+	<script src="js/menu.js"></script>
+	<script>
 
 $(function() {
 
-$("#example-1").eocNewsticker({
-  speed: 25,
-  timeout: 0.5
-});
+  $("#example-1").eocNewsticker({
+    speed: 25,
+    timeout: 0.5
+  });
 
-$("#example-2").eocNewsticker({
-  divider: "***",
-  type: 'ajax',
-  source: 'example-json.php',
-  interval: 30
-});
+  $("#example-2").eocNewsticker({
+    divider: "***",
+    type: 'ajax',
+    source: 'example-json.php',
+    interval: 30
+  });
 
-$("#example-3").eocNewsticker({
-  speed: 15,
-  divider: "|",
-  type: 'ajax',
-  source: 'example-json.php',
-  dataType: 'jsonp',
-  interval: 30
-});
+  $("#example-3").eocNewsticker({
+    speed: 15,
+    divider: "|",
+    type: 'ajax',
+    source: 'example-json.php',
+    dataType: 'jsonp',
+    interval: 30
+  });
 
 });
 
 </script>
-  <style>
-    html { 
-      background: url(images/vc-bg-5.png) no-repeat center center fixed; 
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      width: 100%;
-      height: 100%;
-    }
+    <style>
+      html { 
+        background: url(images/vc-bg-5.png) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+      }
 
-    body {
-      margin: 0;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  </style>
-</head>
-<body>
-<center>
-  <nav id='menu'>
-    <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
-    <ul>
-      <li><a href='http://'>Home</a></li>
-      <li><a class='dropdown-arrow' href='./partner.html'>Partner</a>
-        <ul class='sub-menus'>
-          <li><a href='http://'>Products 1</a></li>
-          <li><a href='http://'>Products 2</a></li>
-          <li><a href='http://'>Products 3</a></li>
-          <li><a href='http://'>Products 4</a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
-  <br>
-  <div class="datagrid"><table>
+      body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+
+  <body>
+<script src='js/script.js'></script><body>
+<nav id='menu'>
+  <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+  <ul>
+    <li><a href='http://'>Home</a></li>
+    <li><a class='dropdown-arrow' href='http://'>Products</a>
+      <ul class='sub-menus'>
+        <li><a href='http://'>Products 1</a></li>
+        <li><a href='http://'>Products 2</a></li>
+        <li><a href='http://'>Products 3</a></li>
+        <li><a href='http://'>Products 4</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    <center>
+    <div class="datagrid"><table>
 		<thead align="center">
 			<tr>
 				<th><font size="6">Aktuelle VanillaCraft Staffel</font></th>
@@ -164,6 +161,8 @@ $("#example-3").eocNewsticker({
 			</td></tr>
 		
 	</tbody></table></div>
-</center>
-</body>
-</html>
+
+  
+
+
+</center></body></html>
