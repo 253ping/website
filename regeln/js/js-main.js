@@ -45,7 +45,7 @@ for (i = 0; i < headlines.length; i++) {
 document.getElementById("bugreport").addEventListener("click", () => {
     Swal.fire({
         text: 'Fehler und Anregungen zur Website oder zum Bot kannst du Laurino108#1008 auf Discord senden. Bei Fragen zum Kanal oder Meldung von Regelverstößen melde dich bitte über ein Ticket.',
-        imageUrl: 'assets/img/its-not-a-bug-its-a-feature.jpg',
+        imageUrl: 'images/its-not-a-bug-its-a-feature.jpg',
         imageWidth: 400,
         imageAlt: 'BUGS',
         confirmButtonText: 'alles klar chef'
