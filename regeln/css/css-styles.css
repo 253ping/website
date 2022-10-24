@@ -63,6 +63,9 @@ ul {
     }
 }
 
+.logo img {
+    width: 10em;
+}
 
 .center {
     position: absolute;
