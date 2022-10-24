@@ -6,33 +6,16 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<script src="https://kit.fontawesome.com/233446497c.js" crossorigin="anonymous"></script>
 	<script src="js/eoc-newsticker.js"></script>
-	<script src="js/menu.js"></script>
 	<script>
+		function updatemenu() {
+  if (document.getElementById('responsive-menu').checked == true) {
+    document.getElementById('menu').style.borderBottomRightRadius = '0';
+    document.getElementById('menu').style.borderBottomLeftRadius = '0';
+  }else{
+    document.getElementById('menu').style.borderRadius = '10px';
+  }
+}
 
-$(function() {
-
-  $("#example-1").eocNewsticker({
-    speed: 25,
-    timeout: 0.5
-  });
-
-  $("#example-2").eocNewsticker({
-    divider: "***",
-    type: 'ajax',
-    source: 'example-json.php',
-    interval: 30
-  });
-
-  $("#example-3").eocNewsticker({
-    speed: 15,
-    divider: "|",
-    type: 'ajax',
-    source: 'example-json.php',
-    dataType: 'jsonp',
-    interval: 30
-  });
-
-});
 
 </script>
     <style>
@@ -59,6 +42,18 @@ $(function() {
 
   <body>
     <center>
+	    <nav id='menu'>
+  <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+  <ul>
+    <li><a href='http://'>Home</a></li>
+    <li><a class='dropdown-arrow' href='http://'>Staffeln</a>
+      <ul class='sub-menus'>
+        <li><a href='http://'>Aktuelle Staffel</a></li>
+        <li><a href='http://'>Download</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     <div class="datagrid"><table>
 		<thead align="center">
 			<tr>
@@ -68,7 +63,6 @@ $(function() {
 		<tbody align="center" valign="center">
 			<tr>
 				<td><div class="datagrid"><table>
-					<div id="example-1"><i>VanillaCraft Staffel 5 startet in KW43!</i></div>
 					<thead align="center">
 						<tr>
 							<th></th>
