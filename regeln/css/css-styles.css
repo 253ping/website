@@ -63,13 +63,11 @@ ul {
     }
 }
 
-.logo img {
-    width: 4em;
-}
 
 .center {
     position: absolute;
     left: 50%;
+    transform: translateX(-50%);
 }
 
 .toprow {
