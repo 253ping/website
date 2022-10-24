@@ -71,6 +71,7 @@
 	text-decoration: none;
 	color: #FFFFFF;
 	font-size: 16px;
+	font: normal 24px/150% Arial, Helvetica, sans-serif;
 }
 #menu a.dropdown-arrow:after {
 	content: "\25BE";
@@ -100,6 +101,7 @@
 	font-size: 1.6em;
 	content: "\2261"; 
 	margin-left: 20px;
+	font: normal 24px/150% Arial, Helvetica, sans-serif;
 }
 #menu ul.sub-menus{
 	height: auto;
@@ -117,6 +119,7 @@
 #menu ul.sub-menus a {
 	color: #FFFFFF;
 	font-size: 16px;
+	font: normal 24px/150% Arial, Helvetica, sans-serif;
 }
 #menu li:hover ul.sub-menus {
 	display: block
