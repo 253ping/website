@@ -17,7 +17,7 @@
     <script src="js/eoc-newsticker.js"></script>
     <style>
       html {
-        background: url(images/vc-bg-5.png) no-repeat center center fixed;
+        background: url("images/vc-bg-5-pc.png") no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -35,6 +35,19 @@
         justify-content: center;
         overflow-y: scroll;
         background: transparent;
+      }
+
+      #banner-mobile {
+        display: none;
+      }
+
+      @media only screen and (max-width: 1000px) {
+        #banner-mobile {
+          display: block;
+        }
+        #html {
+          background: url("images/vc-bg-5.png") no-repeat center center fixed;
+        }
       }
     </style>
   </head>
@@ -215,29 +228,32 @@
         </table>
       </div>
       <br /><br />
-      <div class="datagrid">
-        <table>
-          <thead align="center">
-            <tr>
-              <th><font size="6">Partner</font></th>
-            </tr>
-          </thead>
-          <tbody align="center" valign="center" display="flex">
-            <tr>
-              <td>
-                <a href="https://cp.instanthost.gg/aff.php?aff=2080">
-                  <img
-                    src="https://instanthost.gg/images/media-pack/INSTANTHOST-logo-original.png"
-                    alt="Instanthost-Logo"
-                    width="300"
-                    height="70"
-                /></a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+
+      <div id="banner-mobile">
+        <div class="datagrid">
+          <table>
+            <thead align="center">
+              <tr>
+                <th><font size="6">Partner</font></th>
+              </tr>
+            </thead>
+            <tbody align="center" valign="center" display="flex">
+              <tr>
+                <td>
+                  <a href="https://cp.instanthost.gg/aff.php?aff=2080">
+                    <img
+                      src="https://instanthost.gg/images/media-pack/INSTANTHOST-logo-original.png"
+                      alt="Instanthost-Logo"
+                      width="300"
+                      height="70"
+                  /></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <br /><br />
       </div>
-      <br><br>
     </center>
   </body>
 </html>
