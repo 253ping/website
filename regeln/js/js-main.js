@@ -1,21 +1,12 @@
 /* Regeln für den Projekte-Kanal | (c) Carsten Stephan @ TJC-Team 2022 */
 
-
-/* Linkfunktion */
-
 // Holt sich die Headlines als Array
 var headlines = document.getElementsByTagName("h3");
 
 function clickAndCopy(element) {
     
     // Packt den Text in die Zwischenablage
-
-    navigator.clipboard.writeText(window.location.hostname + window.location.pathname + "#" + element.id)
-
-    // ACHTUNG!
-    // Durch den Code in Zeile 13 funktioniert dieses Script NICHT mit der Live-Server Extension
-    // oder auf portbasierten Selfhosting, da kein Port mitkopiert wird (bsp. localhost:5500)
-
+    navigator.clipboard.writeText(window.location.host + window.location.pathname + "#" + element.id)
 
     // Feuert den Alert ab
     Swal.fire({ 
@@ -33,10 +24,10 @@ function clickAndCopy(element) {
 for (i = 0; i < headlines.length; i++) {
 
     // ...werden alle "i"-Elemente geholt. Das sollten nur die von Fontawesome sein.
-    var linkIcon = headlines[i].querySelectorAll('i');
+    var linkIcon = headlines[i].querySelector('i');
 
     // Ihnen wird die Funktion mit ihrer eigenen ID verpasst.
-    linkIcon[0].setAttribute('onclick', 'clickAndCopy(' + headlines[i].id + ');');
+    linkIcon.setAttribute('onclick', 'clickAndCopy(' + headlines[i].id + ');');
 
 }
 
@@ -44,10 +35,10 @@ for (i = 0; i < headlines.length; i++) {
 
 document.getElementById("bugreport").addEventListener("click", () => {
     Swal.fire({
-        text: 'Fehler und Anregungen zur Website oder zum Bot kannst du Laurino108#1008 auf Discord senden. Bei Fragen zum Projekt oder Meldung von Regelverstößen melde dich bitte über ein Ticket.',
-        imageUrl: 'images/its-not-a-bug-its-a-feature.jpg',
+        html: 'Fehler und Anregungen zur Website oder zum Bot kannst du <a target="_blank" href="https://discord.com/users/842752885602254906">Laurino108#1008</a> auf Discord senden. Bei Fragen zum Projekt oder Meldung von Regelverstößen melde dich bitte über ein Ticket.',
+        imageUrl: 'images/bug.jpg',
         imageWidth: 400,
         imageAlt: 'BUGS',
-        confirmButtonText: 'alles klar chef'
+        confirmButtonText: 'Alrighty Then'
     })
 })

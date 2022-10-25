@@ -13,7 +13,7 @@ html {
 
 body {
     
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/img-bg.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/background.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -63,10 +63,6 @@ ul {
     }
 }
 
-.logo img {
-    width: 4em;
-}
-
 .center {
     position: absolute;
     left: 50%;
@@ -81,28 +77,27 @@ ul {
     margin: 0;
 }
 
-strong.command {
-    color: aqua;
-}
-
 strong.list>li {
     padding-bottom: 1em;
 }
 
-strong.dont {
+dont {
+    font-weight: bolder;
     color: red;
 }
 
-strong.important {
+do {
+    font-weight: bolder;
     color: greenyellow;
 }
+
 .leftalign {
     text-align: left;
 }
 
 a {
     text-decoration: dotted;
-    color: white;
+    color: aquamarine;
     transition: 0.4s;
 }
 
@@ -121,6 +116,10 @@ h3 .fa {
 
 h3:hover .fa {
     opacity: 1;
+}
+
+*[c] {
+    margin-left: 20px;
 }
 
 #bugreport {
